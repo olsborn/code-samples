@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<script src="js/jquery-3.6.0.min.js"></script>
+<link href="css/style.css" rel="stylesheet"/>
+<script>
+	var EMOJIA_APP = {
+		wX: $(window).width(),
+		wY: $(window).height(),
+		emoji_missed: 0,
+		emoji_shot: 0,		
+		working: false,
+		interval: false,
+		speedCoef: 0,
+		lastCreated: 0,
+		lastCreated_pxc: $(window).width() * 0.5,
+		statsCallback: false,
+		
+		
+		fAddEmoji: function() {
+			var xc = 30 + Math.random() * 90;
+			var yc = xc;
+			var pxc = ( (EMOJIA_APP.lastCreated_pxc > EMOJIA_APP.wX * 0.5)?  Math.random() * ((EMOJIA_APP.wX - xc) * 0.5): (EMOJIA_APP.wX + xc) * 0.5 + Math.random() * ((EMOJIA_APP.wX - xc) * 0.5 - xc) );
+			var pyc = EMOJIA_APP.wY;
+			
+			EMOJIA_APP.speedCoef += 0.075 * 0.2;
+			
+			var speedcoef = 1 + (((Math.random() - 0.5) / 2) + EMOJIA_APP.speedCoef)  * (30 / xc);
+			
+
+				$('<div class="emoji">').css({
+						'width': xc,
+						'height': yc,
+						'left': ((pxc * 100) / EMOJIA_APP.wX)  + '%',
+						'top': pyc,
+						'background-image': 'url(images/em' + (1 + Math.floor(Math.random() * 6)) + '.png)' 													
+					}).attr('data-speed-coef', speedcoef).
+					one('click', function(){
+						var THIS = $(this);
+						THIS.addClass('fadeOutScale');
+						EMOJIA_APP.emoji_shot++;
+						EMOJIA_APP.statsCallback();
+						setTimeout(function(){THIS.remove()}, 500);
+					}).appendTo('body');					
+
+				EMOJIA_APP.lastCreated = new Date().getTime();
+				EMOJIA_APP.lastCreated_pxc = pxc;
+			
+		},
+		
+		mainloop: function() {
+			
+			if (EMOJIA_APP.working) return;
+			EMOJIA_APP.working = true;
+			
+				var s = $('div.emoji').length;
+				var b = 3 + 4 * (s / 7);
+				if ( ( EMOJIA_APP.lastCreated + 750 < new Date().getTime() && (Math.random() * b) > (b - EMOJIA_APP.speedCoef * 0.3) && s < 18 ) || s == 0 ) {
+					EMOJIA_APP.fAddEmoji();
+				}	
+			
+				
+			$('div.emoji').each(function() {
+				var em = $(this);
+				var pyc = parseFloat(em.css('top'));
+	
+				if ( pyc < (-1) * parseInt(em.css('height')) ) {
+					em.remove();
+					EMOJIA_APP.working = false;
+					EMOJIA_APP.emoji_missed++;
+					EMOJIA_APP.statsCallback();
+					return false;
+				} else {			
+					em.css('top', pyc - 0.3 * parseFloat(em.attr('data-speed-coef')) );				
+				}	
+			});
+			
+			EMOJIA_APP.working = false;
+			return;
+		},	
+		
+		init: function(statsCallfuct) {
+			EMOJIA_APP.statsCallback = statsCallfuct;			
+			EMOJIA_APP.interval = setInterval(EMOJIA_APP.mainloop, 10);
+			
+			$(window).resize(function(){
+				EMOJIA_APP.wX = $(window).width();
+				EMOJIA_APP.wY = $(window).height();
+			});
+			
+		}
+	
+	
+	}
+	
+	$(function() { 	
+		EMOJIA_APP.init(fStatsCallback);
+		
+		for (var c = 1; c < 9; c++) {
+		
+			var xc = 100 + Math.random() * 350 * (EMOJIA_APP.wX / 1600);
+			var yc = xc * 0.5;
+			var pxc = Math.random() * (EMOJIA_APP.wX - xc);
+			var pyc = EMOJIA_APP.wY * 0.5 * Math.random();
+		
+				$('<div class="cloud">').css({
+						'width': xc, 
+						'height': yc,
+						'left': ((pxc * 100) / EMOJIA_APP.wX) + '%',
+						'top': pyc,
+						'opacity': ((xc - 100) * (1600 / EMOJIA_APP.wX)) / 450								
+					}).appendTo('body');
+		}			
+	});	
+	
+	function fStatsCallback() {
+		$('span[data-type="shot"]').html(parseInt(EMOJIA_APP.emoji_shot));
+		$('span[data-type="missed"]').html(parseInt(EMOJIA_APP.emoji_missed));
+	}
+	
+</script>
+<title>Emoji game</title>
+</head>
+<body>
+<div style="height: 99vh; position: relative; z-index: 3;">
+	<h1>EMOJI example by AT</h1>
+	<div>
+		<span style="width: 60px; display: inline-block;">shot:</span> <span data-type="shot" style="color: green; font-weight: bold;">0</span><br />
+		<span style="width: 60px; display: inline-block;">missed:</span> <span data-type="missed" style="color: red; font-weight: bold;">0</span>
+	</div>	
+	
+</div>
+</body>
+</html>

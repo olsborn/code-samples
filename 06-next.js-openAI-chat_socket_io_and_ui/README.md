@@ -1,20 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js OpenAI Chat with Socket.IO and UI
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) project showcasing a real-time chat application with OpenAI integration using Socket.IO for WebSocket communication.
 
-First, run the development server:
+**Repository:** [https://github.com/olsborn/code-samples.git](https://github.com/olsborn/code-samples.git)
 
-````bash
-## Getting Started
+---
 
-### Requirements
-- **Node.js** (recommended LTS)
-- **npm**
+## Prerequisites
 
-### Install dependencies
+- **Node.js** (recommended LTS version)
+- **npm** or **yarn**
+- **OpenAI API Key** (see instructions below)
+
+---
+
+## Getting the OpenAI API Key
+
+To use this application, you need an OpenAI API key:
+
+1. Go to [https://platform.openai.com/](https://platform.openai.com/)
+2. Sign up or log in to your account
+3. Navigate to **API Keys** section (or go directly to [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
+4. Click **"Create new secret key"**
+5. Copy the generated API key (you won't be able to see it again!)
+6. Store it securely - you'll need it in the next step
+
+> **Note:** OpenAI API usage is not free. Make sure to review the [pricing](https://openai.com/pricing) and set up billing limits if needed.
+
+---
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/olsborn/code-samples.git
+cd code-samples/06-next.js-openAI-chat_socket_io_and_ui
+```
+
+### 2. Install Frontend Dependencies
+
+In the main project directory:
+
 ```bash
 npm install
-````
+```
+
+### 3. Configure the Socket.IO Backend Server
+
+Navigate to the `server` directory:
+
+```bash
+cd server
+npm install
+```
+
+Create a `.env` file in the `server` directory by copying the example file:
+
+```bash
+cp .env.example .env
+```
+
+Edit the `.env` file and add your OpenAI API key:
+
+```env
+OPENAI_API_KEY=your-api-key-here
+PORT=4000
+CLIENT_ORIGIN=http://localhost:3000
+```
+
+Replace `your-api-key-here` with the API key you obtained from OpenAI.
 
 ---
 
@@ -22,12 +77,16 @@ npm install
 
 ### 1. Start the Socket.IO Backend Server
 
-Go to the `server` directory and run:
+In the `server` directory:
 
 ```bash
-cd server
-npm install
 npm start
+```
+
+For development with auto-reload:
+
+```bash
+npm run dev
 ```
 
 The backend server will start on `http://localhost:4000` by default.
@@ -42,7 +101,7 @@ npm run dev
 
 The frontend will start on `http://localhost:3000`.
 
-> **Important:** Both servers must be running for the chat app to work correctly.
+> **Important:** Both servers must be running simultaneously for the chat app to work correctly.
 
 ---
 

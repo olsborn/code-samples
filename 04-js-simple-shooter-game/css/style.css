@@ -1,0 +1,78 @@
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 20px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(51,216,218,1) 100%);
+  color:#FF00CC;
+}
+
+div.emoji {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: left top;
+	cursor: pointer;	
+	z-index: 5;
+}
+
+@keyframes fadeOutScale {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	
+	100% {
+		opacity: 0;
+		transform: scale(2) rotate(20deg);
+	}
+}
+
+*.fadeOutScale {
+	animation: fadeOutScale .5s ease-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}	
+
+
+@keyframes translatex {
+	0% {
+
+		transform: translateX(0px); 
+	}
+	
+	20% {
+		transform: translateX(300px); 
+	}
+	
+	80% {
+		transform: translateX(-300px); 
+	}		
+	
+	100% {
+		transform: translateX(0px); 
+	}
+}
+
+div.cloud {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 100px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: left top;
+	background-image: url('../images/cloud.png');
+	z-index: 0;	
+	animation: translatex 150s;
+	animation-iteration-count: infinite;
+}
