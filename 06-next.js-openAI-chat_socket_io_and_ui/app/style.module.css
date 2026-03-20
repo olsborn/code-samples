@@ -1,0 +1,10 @@
+.backgr {
+  position: relative;
+}
+.backimg {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+  opacity: 0.45;
+}
