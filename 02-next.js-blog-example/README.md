@@ -81,4 +81,4 @@ Converted to Next.js for learning purposes.
 
 ## 📄 License
 
-Educational project - code example.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).

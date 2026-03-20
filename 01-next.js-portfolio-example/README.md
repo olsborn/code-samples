@@ -134,7 +134,7 @@ npm install
 
 ## 📄 License
 
-This project is private and not licensed for distribution.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 **Note**: This project uses a BootstrapMade template as its base. Original template assets have been removed due to licensing requirements. Please refer to [BootstrapMade](https://bootstrapmade.com/) for template licensing information.
 

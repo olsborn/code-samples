@@ -236,7 +236,7 @@ This repository serves multiple purposes:
 
 ## 📝 License
 
-Educational and demonstration projects. Individual projects may be based on free templates (with proper attribution). Check individual project READMEs for specific licensing information.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 ---
 
@@ -272,4 +272,5 @@ The easiest way to deploy a Next.js app is with the **Vercel** platform. See the
 ---
 
 ## License
-MIT
+
+GNU GPL (General Public License)

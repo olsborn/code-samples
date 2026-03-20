@@ -95,7 +95,7 @@ You can easily customize the game:
 
 ## 📄 License
 
-Demo project - free for educational and personal use.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 ## 👤 Author
 
