@@ -34,8 +34,8 @@ To use this application, you need a Replicate API token:
 
 ### Video Demo
 
-- [MP4 video](demo.mp4)
-- [YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
+- [📺 YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
+- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/07-next.js-imageGenerator_AI_app/demo.mp4)
 
 ---
 

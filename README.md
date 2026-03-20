@@ -155,8 +155,8 @@ An advanced real-time chat application using WebSocket communication for instant
 
 **Demo:** 
 - ![Demo](06-next.js-openAI-chat_socket_io_and_ui/demo.gif)
-- [Video Demo (MP4)](06-next.js-openAI-chat_socket_io_and_ui/demo.mp4)
-- [YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+- [📺 YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/06-next.js-openAI-chat_socket_io_and_ui/demo.mp4)
 
 ---
 
@@ -179,8 +179,8 @@ An AI-powered image generation application that creates images from text descrip
 
 **Demo:** 
 - ![Demo](07-next.js-imageGenerator_AI_app/demo.gif)
-- [Video Demo (MP4)](07-next.js-imageGenerator_AI_app/demo.mp4)
-- [YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
+- [📺 YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
+- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/07-next.js-imageGenerator_AI_app/demo.mp4)
 
 ---
 

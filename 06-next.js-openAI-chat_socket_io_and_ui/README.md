@@ -35,8 +35,8 @@ To use this application, you need an OpenAI API key:
 
 ### Video Demo
 
-- [MP4 video](demo.mp4)
-- [YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+- [📺 YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/06-next.js-openAI-chat_socket_io_and_ui/demo.mp4)
 
 ---
 
