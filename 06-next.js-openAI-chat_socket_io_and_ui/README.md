@@ -29,6 +29,17 @@ To use this application, you need an OpenAI API key:
 
 ---
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
+### Video Demo
+
+- [MP4 video](demo.mp4)
+- [YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+
+---
+
 ## Installation and Setup
 
 ### 1. Clone the Repository

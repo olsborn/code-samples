@@ -17,6 +17,10 @@ A modern, responsive landing page built with Next.js 15, featuring smooth animat
 - Fully responsive design
 - Multiple pages: Home, About, Services, Gallery, Contact
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:

@@ -75,6 +75,10 @@ This project is based on a free HTML5 UP template.
 Design by HTML5 UP (html5up.net).
 Converted to Next.js for learning purposes.
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
 ## 📄 License
 
 Educational project - code example.

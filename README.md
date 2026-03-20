@@ -50,6 +50,8 @@ A modern, responsive landing page featuring smooth animations, image galleries, 
 
 **Tech Stack:** Next.js 15, React 19, Bootstrap 5, AOS, GLightbox, Swiper
 
+**Demo:** ![Demo](01-next.js-portfolio-example/demo.gif)
+
 ---
 
 ### 02. Blog Example
@@ -67,6 +69,8 @@ A clean and responsive blog implementation showcasing post listings, individual 
 
 **Tech Stack:** Next.js 15, React 19, Font Awesome, Source Sans Pro
 
+**Demo:** ![Demo](02-next.js-blog-example/demo.gif)
+
 ---
 
 ### 03. Gallery Example
@@ -82,6 +86,8 @@ An elegant image gallery application with integrated lightbox viewing and smooth
 - Font Awesome icons
 
 **Tech Stack:** Next.js, GLightbox, AOS, Font Awesome
+
+**Demo:** ![Demo](03-next.js-gallery-example/demo.gif)
 
 ---
 
@@ -103,6 +109,8 @@ A fun arcade-style browser game where players click on floating emoji before the
 
 **How to Play:** Open `index.html` in your browser and click on emojis before they float off the top of the screen!
 
+**Demo:** ![Demo](04-js-simple-shooter-game/demo.gif)
+
 ---
 
 ### 05. OpenAI Chat - Simplified
@@ -121,6 +129,8 @@ A streamlined chat application with OpenAI GPT model integration, featuring a cl
 **Tech Stack:** Next.js 15, React 19, OpenAI API 6.2.0, TypeScript 5, Lucide React
 
 **Requirements:** OpenAI API Key (see project README for setup instructions)
+
+**Demo:** ![Demo](05-next.js-openAI-chat-simplified/demo.gif)
 
 ---
 
@@ -143,6 +153,11 @@ An advanced real-time chat application using WebSocket communication for instant
 - OpenAI API Key
 - Backend server setup (see project README)
 
+**Demo:** 
+- ![Demo](06-next.js-openAI-chat_socket_io_and_ui/demo.gif)
+- [Video Demo (MP4)](06-next.js-openAI-chat_socket_io_and_ui/demo.mp4)
+- [YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
+
 ---
 
 ### 07. AI Image Generator
@@ -161,6 +176,11 @@ An AI-powered image generation application that creates images from text descrip
 **Tech Stack:** Next.js, Replicate API, TypeScript
 
 **Requirements:** Replicate API Token (see project README for setup instructions)
+
+**Demo:** 
+- ![Demo](07-next.js-imageGenerator_AI_app/demo.gif)
+- [Video Demo (MP4)](07-next.js-imageGenerator_AI_app/demo.mp4)
+- [YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
 
 ---
 

@@ -28,6 +28,17 @@ To use this application, you need a Replicate API token:
 
 ---
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
+### Video Demo
+
+- [MP4 video](demo.mp4)
+- [YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
+
+---
+
 ## Installation and Setup
 
 ### 1. Clone the Repository

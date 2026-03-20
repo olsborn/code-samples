@@ -22,6 +22,10 @@ A chat application with OpenAI integration built with Next.js 15 and React 19. S
 - New users may receive free credits to start
 - Monitor your usage in the [usage dashboard](https://platform.openai.com/usage)
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
 ## 🚀 Installation
 
 1. **Clone the repository:**

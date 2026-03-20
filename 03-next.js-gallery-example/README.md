@@ -25,3 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 - Responsive design
 - Font Awesome icons integration
 - AOS (Animate On Scroll) animations
+
+## 🎬 Demo
+
+![Demo](demo.gif)

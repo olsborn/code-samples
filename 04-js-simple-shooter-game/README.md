@@ -29,6 +29,10 @@ cd code-samples/04-js-simple-shooter-game
 
 **Note:** The game does not require installation of additional dependencies - jQuery is included locally.
 
+## 🎬 Demo
+
+![Demo](demo.gif)
+
 ## 📁 Project Structure
 
 ```
