@@ -2,15 +2,10 @@
 
 A simple arcade game in JavaScript using jQuery, where the player's goal is to click on appearing emoji/balloons before they disappear from the screen.
 
-## 📋 Description
-
-The game involves clicking on emoji falling (or floating) on the screen. Emojis appear randomly and move up the screen. The player must click on them before they disappear from view. The game tracks the number of hits (shot) and missed attempts (missed).
-
 ## 🎮 Features
 
 - **Dynamic emoji spawning** - random generation of emojis in different places on the screen
 - **Progressive difficulty** - the game becomes increasingly difficult over time (emojis move faster)
-- **6 different emojis** - randomly selected emoji graphics
 - **Animated background** - decorative clouds moving in the background
 - **Scoring system** - tracking hits and missed emojis
 - **Responsive design** - adapts to window size
@@ -52,15 +47,6 @@ cd code-samples/04-js-simple-shooter-game
     └── cloud.png      # Cloud graphic
 ```
 
-## 🎯 How to Play
-
-1. Open the game in a browser
-2. Emojis start appearing at the bottom of the screen and float upward
-3. Click on emojis before they disappear from the top edge of the screen
-4. Watch your results:
-   - **shot** (green) - number of hits
-   - **missed** (red) - number of missed emojis
-
 ## 🛠️ Technologies
 
 - **HTML5**
@@ -75,8 +61,6 @@ cd code-samples/04-js-simple-shooter-game
 - **Game Loop**: Main loop runs with 10ms interval (`setInterval`)
 - **Spawning**: Emojis are generated randomly with increasing frequency
 - **Physics**: Each emoji has an individual speed coefficient
-- **Collisions**: Click detection using jQuery event handlers
-- **Animations**: CSS keyframes for fadeOut effects and cloud movements
 
 ### Configuration Variables in Code:
 

@@ -19,8 +19,6 @@ A chat application with OpenAI integration built with Next.js 15 and React 19. S
 
 ### Cost Notice
 - OpenAI API is paid - check the [pricing](https://openai.com/api/pricing/)
-- New users may receive free credits to start
-- Monitor your usage in the [usage dashboard](https://platform.openai.com/usage)
 
 ## 🎬 Demo
 

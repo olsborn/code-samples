@@ -6,7 +6,7 @@ A collection of web development code samples and example projects showcasing var
 
 | # | Project | Description | Technologies |
 |---|---------|-------------|--------------|
-| 01 | [Landing Page Portfolio](#01-landing-page-portfolio) | Modern responsive landing page with animations | Next.js 15, React 19, Bootstrap 5, AOS |
+| 01 | [Landing Page Portfolio](#01-landing-page-portfolio) | Responsive landing page with animations | Next.js 15, React 19, Bootstrap 5, AOS |
 | 02 | [Blog Example](#02-blog-example) | Clean blog implementation with responsive design | Next.js 15, React 19, Font Awesome |
 | 03 | [Gallery Example](#03-gallery-example) | Image gallery with lightbox functionality | Next.js 15, GLightbox, AOS |
 | 04 | [Emoji Shooter Game](#04-emoji-shooter-game) | Simple arcade browser game | JavaScript, jQuery, HTML5, CSS3 |
@@ -18,7 +18,7 @@ A collection of web development code samples and example projects showcasing var
 
 ## 🚀 Getting Started
 
-Each project is contained in its own directory with dedicated README files containing specific installation and usage instructions. Navigate to the respective folder to explore individual projects.
+Each project is contained in its own directory with dedicated README files containing installation and usage instructions.
 
 ```bash
 # Clone the repository
@@ -39,14 +39,12 @@ cd 01-next.js-portfolio-example
 
 **Location:** `01-next.js-portfolio-example/`
 
-A modern, responsive landing page featuring smooth animations, image galleries, testimonials, and multiple service pages. Built with Next.js App Router architecture.
+Responsive landing page featuring animations, image galleries, testimonials, and service pages. Built with Next.js App Router.
 
 **Key Features:**
-- Multiple pages: Home, About, Services, Gallery, Contact
-- Bootstrap 5 responsive design
-- Smooth scroll animations (AOS)
-- Image galleries with GLightbox
-- Swiper carousels and sliders
+- Pages: Home, About, Services, Gallery, Contact
+- Bootstrap design
+- AOS, GLightbox, Swiper
 
 **Tech Stack:** Next.js 15, React 19, Bootstrap 5, AOS, GLightbox, Swiper
 
@@ -63,9 +61,7 @@ A clean and responsive blog implementation showcasing post listings, individual 
 **Key Features:**
 - Blog post list view
 - Single post detail pages
-- Mobile menu implementation
-- Reusable component architecture
-- Font Awesome icons integration
+- Reusable component
 
 **Tech Stack:** Next.js 15, React 19, Font Awesome, Source Sans Pro
 
@@ -77,13 +73,12 @@ A clean and responsive blog implementation showcasing post listings, individual 
 
 **Location:** `03-next.js-gallery-example/`
 
-An elegant image gallery application with integrated lightbox viewing and smooth animations.
+Simple image gallery application with integrated lightbox viewing made for testing Next.js IMAGE.
 
 **Key Features:**
 - GLightbox integration for image viewing
 - Responsive gallery grid
-- Animate On Scroll (AOS) effects
-- Font Awesome icons
+- AOS
 
 **Tech Stack:** Next.js, GLightbox, AOS, Font Awesome
 
@@ -100,10 +95,6 @@ A fun arcade-style browser game where players click on floating emoji before the
 **Key Features:**
 - Dynamic emoji spawning with random positioning
 - Progressive difficulty (increasing speed)
-- 6 different emoji graphics
-- Animated background with clouds
-- Score tracking (hits and misses)
-- Fully responsive design
 
 **Tech Stack:** HTML5, CSS3, JavaScript, jQuery 3.6.0
 
@@ -117,16 +108,14 @@ A fun arcade-style browser game where players click on floating emoji before the
 
 **Location:** `05-next.js-openAI-chat-simplified/`
 
-A streamlined chat application with OpenAI GPT model integration, featuring a clean interface for AI conversations.
+A streamlined chat application with OpenAI GPT model integration.
 
 **Key Features:**
-- Simple and intuitive chat interface
 - Direct OpenAI API integration
-- TypeScript for type safety
+- TypeScript
 - Error handling with error boundaries
-- Theme switcher
 
-**Tech Stack:** Next.js 15, React 19, OpenAI API 6.2.0, TypeScript 5, Lucide React
+**Tech Stack:** Next.js 15, React 19, OpenAI API, TypeScript, Lucide React
 
 **Requirements:** OpenAI API Key (see project README for setup instructions)
 
@@ -138,16 +127,14 @@ A streamlined chat application with OpenAI GPT model integration, featuring a cl
 
 **Location:** `06-next.js-openAI-chat_socket_io_and_ui/`
 
-An advanced real-time chat application using WebSocket communication for instant messaging with OpenAI GPT models.
+Chat application using WebSocket communication for instant messaging with OpenAI GPT models.
 
 **Key Features:**
 - Real-time WebSocket communication
 - Socket.IO backend server
-- Enhanced UI with modern design
 - Multiple chat room support
-- Instant message delivery
 
-**Tech Stack:** Next.js 15, Socket.IO, OpenAI API, TypeScript, Node.js backend
+**Tech Stack:** Next.js 15, React 19, Socket.IO, OpenAI API, TypeScript, Node.js backend
 
 **Requirements:** 
 - OpenAI API Key
@@ -164,16 +151,15 @@ An advanced real-time chat application using WebSocket communication for instant
 
 **Location:** `07-next.js-imageGenerator_AI_app/`
 
-An AI-powered image generation application that creates images from text descriptions using the Replicate API.
+An AI-powered image generation application that creates images from text prompt using the Replicate API.
 
 **Key Features:**
 - Text-to-image generation
 - Multiple AI model options
 - Customizable aspect ratios
 - Modern, responsive interface
-- Image download functionality
 
-**Tech Stack:** Next.js, Replicate API, TypeScript
+**Tech Stack:** Next.js, React, Replicate API, TypeScript
 
 **Requirements:** Replicate API Token (see project README for setup instructions)
 
@@ -194,7 +180,6 @@ This repository demonstrates proficiency in:
 - **TypeScript** - Type-safe JavaScript
 - **Bootstrap 5** - CSS framework
 - **Tailwind CSS** - Utility-first CSS
-- **jQuery** - DOM manipulation (legacy projects)
 
 ### Styling & Animation
 - **AOS (Animate On Scroll)** - Scroll animations
@@ -213,7 +198,7 @@ This repository demonstrates proficiency in:
 ## 📋 Prerequisites
 
 Most projects in this repository require:
-- **Node.js** (version 18.0 or higher recommended)
+- **Node.js** (version 15.0 or higher recommended)
 - **npm**, **yarn**, **pnpm**, or **bun**
 
 For AI-powered projects (05, 06, 07), you'll need:
@@ -257,17 +242,6 @@ These are personal code samples and learning projects. Feel free to fork, study,
 ## 📧 Contact
 
 For questions or suggestions, feel free to open an issue in the repository.
-
----
-
-*Last updated: March 2026*
-- **Learn Next.js** interactive tutorial: https://nextjs.org/learn  
-- **Next.js repository**: https://github.com/vercel/next.js
-
----
-
-## Deploy on Vercel
-The easiest way to deploy a Next.js app is with the **Vercel** platform. See the Next.js deployment docs for configuration details and recommended settings: https://nextjs.org/docs/app/building-your-application/deploying
 
 ---
 

@@ -23,7 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 - Next.js application structure
 - Gallery with GLightbox
 - Responsive design
-- Font Awesome icons integration
 - AOS (Animate On Scroll) animations
 
 ## 🎬 Demo

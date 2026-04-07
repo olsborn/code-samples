@@ -66,10 +66,8 @@ npm run lint
 
 The project presents a sample blog implementation with:
 - Responsive design
-- Mobile menu
 - Blog post list
 - Single post page
-- Reusable components
 
 This project is based on a free HTML5 UP template.
 Design by HTML5 UP (html5up.net).

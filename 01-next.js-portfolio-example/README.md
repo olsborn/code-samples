@@ -10,12 +10,11 @@ A modern, responsive landing page built with Next.js 15, featuring smooth animat
 
 - **Next.js 15** with App Router
 - **React 19** for modern UI components
-- **Bootstrap 5** for responsive design
+- **Bootstrap** for responsive design
 - **AOS** (Animate On Scroll) for smooth animations
 - **GLightbox** for image galleriesco
 - **Swiper** for carousels and sliders
-- Fully responsive design
-- Multiple pages: Home, About, Services, Gallery, Contact
+- Pages: Home, About, Services, Gallery, Contact
 
 ## 🎬 Demo
 
@@ -24,7 +23,7 @@ A modern, responsive landing page built with Next.js 15, featuring smooth animat
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Node.js** (version 18.0 or higher)
+- **Node.js** (version 16.0 or higher)
 - **npm**, **yarn**, **pnpm**, or **bun** package manager
 
 ## 🛠️ Installation
