@@ -1,11 +1,11 @@
 # Product Catalog - Sample Code
 
-Demo aplikacji katalogu produktów z filtrowaniem i sortowaniem.
+Product catalog application demo with filtering and sorting capabilities.
 
-## Wymagania
+## Requirements
 
 - PHP 8.2+
-- Rozszerzenie cURL (tylko w trybie online)
+- cURL extension (online mode only)
 
 ## 🎬 Demo
 
@@ -13,30 +13,30 @@ Demo aplikacji katalogu produktów z filtrowaniem i sortowaniem.
 
 ---
 
-## Konfiguracja
+## Configuration
 
-Plik `config.php` zawiera:
+The `config.php` file contains:
 
-- `OFFLINE_MODE` - tryb pracy (true = dane z plików JSON, false = dane z API)
-- `API_URL` - adres API REST (używany tylko gdy OFFLINE_MODE = false)
-- `API_AUTH_KEY` - klucz autoryzacji do API (używany tylko gdy OFFLINE_MODE = false)
+- `OFFLINE_MODE` - operating mode (true = data from JSON files, false = data from API)
+- `API_URL` - REST API address (used only when OFFLINE_MODE = false)
+- `API_AUTH_KEY` - API authorization key (used only when OFFLINE_MODE = false)
 
-### Tryb Offline (domyślny)
+### Offline Mode (default)
 
-Aplikacja domyślnie działa w trybie offline, używając przykładowych danych z katalogu `data/`:
+The application runs in offline mode by default, using sample data from the `data/` directory:
 
-- `data/categories.json` - kategorie produktów
-- `data/products.json` - lista produktów
+- `data/categories.json` - product categories
+- `data/products.json` - product list
 
-Aby uruchomić w trybie offline, upewnij się że w `config.php`:
+To run in offline mode, ensure that in `config.php`:
 
 ```php
 const OFFLINE_MODE = true;
 ```
 
-### Tryb Online
+### Online Mode
 
-Aby połączyć się z prawdziwym API, ustaw w `config.php`:
+To connect to a real API, set in `config.php`:
 
 ```php
 const OFFLINE_MODE = false;
@@ -44,39 +44,39 @@ const API_URL = 'https://your-api-url.com/rest.php';
 const API_AUTH_KEY = 'your_api_key';
 ```
 
-## Uruchomienie
+## Running the Application
 
-1. Umieść pliki w katalogu serwera HTTP (np. XAMPP, WAMP)
-2. Otwórz `index.php` w przeglądarce
-3. Aplikacja działa od razu z przykładowymi danymi (tryb offline)
+1. Place files in the HTTP server directory (e.g., XAMPP, WAMP)
+2. Open `index.php` in your browser
+3. The application works immediately with sample data (offline mode)
 
-## Funkcjonalność
+## Features
 
-- Wyświetlanie produktów z API
-- Filtrowanie po kategoriach (hierarchiczne)
-- Sortowanie (nazwa A-Z/Z-A, cena rosnąco/malejąco)
-  - Sortowanie uwzględnia polskie znaki diakrytyczne (ą, ć, ę, ł, ń, ó, ś, ź, ż)
-  - Implementacja nie wymaga rozszerzenia PHP intl (Collator)
-- Wyświetlanie ścieżki kategorii
-- Oznaczanie produktów niedostępnych (quantity = 0)
-- Responsywny layout
+- Display products from API
+- Category filtering (hierarchical)
+- Sorting (name A-Z/Z-A, price ascending/descending)
+  - Sorting supports Polish diacritical characters (ą, ć, ę, ł, ń, ó, ś, ź, ż)
+  - Implementation does not require PHP intl extension (Collator)
+- Display category breadcrumb path
+- Mark unavailable products (quantity = 0)
+- Responsive layout
 
-## Uwagi techniczne
+## Technical Notes
 
-- Sortowanie alfabetyczne używa zamiany polskich znaków na odpowiedniki łacińskie, co nie wymaga rozszerzenia intl
-- Funkcja budowania drzewa kategorii zoptymalizowana - indeksowanie po parent_id zamiast wielokrotnego filtrowania
+- Alphabetical sorting uses Polish character replacement with Latin equivalents, which does not require the intl extension
+- Category tree building function optimized - indexing by parent_id instead of multiple filtering operations
 
-## Struktura projektu
+## Project Structure
 
 ```text
 .
-├── index.php           # Główny plik aplikacji
-├── config.php          # Konfiguracja (OFFLINE_MODE, API_URL, API_AUTH_KEY)
-├── ApiClient.php       # Klasa do obsługi API i trybu offline
-├── style.css           # Style CSS
-├── script.js           # JavaScript (obsługa filtrów)
+├── index.php           # Main application file
+├── config.php          # Configuration (OFFLINE_MODE, API_URL, API_AUTH_KEY)
+├── ApiClient.php       # Class for API handling and offline mode
+├── style.css           # CSS styles
+├── script.js           # JavaScript (filter handling)
 ├── data/
-│   ├── categories.json # Przykładowe kategorie (tryb offline)
-│   └── products.json   # Przykładowe produkty (tryb offline)
-└── README.md           # Ten plik
+│   ├── categories.json # Sample categories (offline mode)
+│   └── products.json   # Sample products (offline mode)
+└── README.md           # This file
 ```
