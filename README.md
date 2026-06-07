@@ -13,6 +13,8 @@ A collection of web development code samples and example projects showcasing var
 | 05 | [OpenAI Chat - Simplified](#05-openai-chat---simplified) | Basic chat interface for OpenAI GPT models | Next.js 15, React 19, OpenAI API, TypeScript |
 | 06 | [OpenAI Chat with Socket.IO](#06-openai-chat-with-socketio) | Real-time chat with WebSocket communication | Next.js 15, Socket.IO, OpenAI API, TypeScript |
 | 07 | [AI Image Generator](#07-ai-image-generator) | AI-powered image generation from text prompts | Next.js, Replicate API, TypeScript |
+| 08 | [Product Catalog API Integration](#08-product-catalog-api-integration) | Product catalog with filtering and sorting | PHP 8.2+, REST API, JSON |
+| 09 | [Project Quotation Form](#09-project-quotation-form) | Contact form with reCAPTCHA v2 and AJAX | PHP 7.4+, jQuery, reCAPTCHA v2 |
 
 ---
 
@@ -143,7 +145,6 @@ Chat application using WebSocket communication for instant messaging with OpenAI
 **Demo:** 
 - ![Demo](06-next.js-openAI-chat_socket_io_and_ui/demo.gif)
 - [📺 YouTube Demo](https://youtu.be/Bo6og4-UvIs?si=0Y96UVl3aZM5yCFG)
-- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/06-next.js-openAI-chat_socket_io_and_ui/demo.mp4)
 
 ---
 
@@ -166,11 +167,48 @@ An AI-powered image generation application that creates images from text prompt 
 **Demo:** 
 - ![Demo](07-next.js-imageGenerator_AI_app/demo.gif)
 - [📺 YouTube Demo](https://youtu.be/UsXv98MmBbg?si=ZsykY3972FCb_H2w)
-- [📹 Download MP4](https://github.com/olsborn/code-samples/raw/main/07-next.js-imageGenerator_AI_app/demo.mp4)
 
 ---
 
-## 🛠️ Technologies Used
+### 08. Product Catalog API Integration
+
+**Location:** `08-php-simple-API-intergation/`
+
+Product catalog application with filtering, sorting, and hierarchical categories. Works in offline mode with JSON data or online mode with REST API.
+
+**Key Features:**
+- Category filtering with hierarchical structure
+- Sorting by name (A-Z/Z-A) and price
+- Polish character support (ą, ć, ę, ł, ń, ó, ś, ź, ż)
+- Offline/Online mode switching
+- Product availability indicators
+- Responsive layout
+
+**Tech Stack:** PHP 8.2+, REST API, JSON, cURL
+
+**Demo:** ![Demo](08-php-simple-API-intergation/demo.gif)
+
+---
+
+### 09. Project Quotation Form
+
+**Location:** `09-php-simple-FROM-example/`
+
+Contact form with Google reCAPTCHA v2 integration, AJAX validation, and test mode for development.
+
+**Key Features:**
+- AJAX form submission
+- Client and server-side validation
+- Google reCAPTCHA v2 integration
+- Test mode (captcha optional)
+- Loading spinner and success/error messages
+- Responsive design
+
+**Tech Stack:** PHP 7.4+, jQuery 4.0, Google reCAPTCHA v2, AJAX
+
+**Demo:** ![Demo](09-php-simple-FROM-example/demo.gif)
+
+---
 
 This repository demonstrates proficiency in:
 
@@ -180,6 +218,7 @@ This repository demonstrates proficiency in:
 - **TypeScript** - Type-safe JavaScript
 - **Bootstrap 5** - CSS framework
 - **Tailwind CSS** - Utility-first CSS
+- **jQuery** - JavaScript library
 
 ### Styling & Animation
 - **AOS (Animate On Scroll)** - Scroll animations
@@ -188,10 +227,13 @@ This repository demonstrates proficiency in:
 - **Font Awesome** - Icon library
 
 ### Backend & APIs
+- **PHP 8.2+** - Server-side scripting
 - **OpenAI API** - GPT language models
 - **Replicate API** - AI image generation
 - **Socket.IO** - Real-time WebSocket communication
 - **Node.js** - Backend server
+- **REST API** - API integration
+- **Google reCAPTCHA v2** - Bot protection
 
 ---
 

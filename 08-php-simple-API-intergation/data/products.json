@@ -1,0 +1,632 @@
+[
+  {
+    "id": "1",
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "price": "1999.99",
+    "oldPrice": "2099.99",
+    "quantity": "24",
+    "category": "4",
+    "photo": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp"
+  },
+  {
+    "id": "2",
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "price": "1799.99",
+    "oldPrice": "2025.00",
+    "quantity": "45",
+    "category": "5",
+    "photo": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp"
+  },
+  {
+    "id": "3",
+    "name": "Huawei Matebook X Pro",
+    "price": "1399.99",
+    "oldPrice": "0",
+    "quantity": "75",
+    "category": "5",
+    "photo": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp"
+  },
+  {
+    "id": "4",
+    "name": "Lenovo Yoga 920",
+    "price": "1099.99",
+    "oldPrice": "1177.00",
+    "quantity": "40",
+    "category": "5",
+    "photo": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
+  },
+  {
+    "id": "5",
+    "name": "New DELL XPS 13 9300 Laptop",
+    "price": "1499.99",
+    "oldPrice": "1702.00",
+    "quantity": "0",
+    "category": "5",
+    "photo": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp"
+  },
+  {
+    "id": "6",
+    "name": "Apple Airpods",
+    "price": "129.99",
+    "oldPrice": "153.99",
+    "quantity": "67",
+    "category": "7",
+    "photo": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp"
+  },
+  {
+    "id": "7",
+    "name": "Amazon Echo Plus",
+    "price": "99.99",
+    "oldPrice": "113.67",
+    "quantity": "61",
+    "category": "8",
+    "photo": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+  },
+  {
+    "id": "8",
+    "name": "Blue & Black Check Shirt",
+    "price": "29.99",
+    "oldPrice": "35.42",
+    "quantity": "38",
+    "category": "11",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp"
+  },
+  {
+    "id": "9",
+    "name": "Gigabyte Aorus Men Tshirt",
+    "price": "24.99",
+    "oldPrice": "0",
+    "quantity": "90",
+    "category": "11",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp"
+  },
+  {
+    "id": "10",
+    "name": "Man Plaid Shirt",
+    "price": "34.99",
+    "oldPrice": "43.46",
+    "quantity": "82",
+    "category": "11",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp"
+  },
+  {
+    "id": "11",
+    "name": "Man Short Sleeve Shirt",
+    "price": "19.99",
+    "oldPrice": "21.46",
+    "quantity": "2",
+    "category": "11",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp"
+  },
+  {
+    "id": "12",
+    "name": "Men Check Shirt",
+    "price": "27.99",
+    "oldPrice": "31.58",
+    "quantity": "95",
+    "category": "11",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp"
+  },
+  {
+    "id": "13",
+    "name": "Nike Air Jordan 1 Red And Black",
+    "price": "149.99",
+    "oldPrice": "156.43",
+    "quantity": "7",
+    "category": "13",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp"
+  },
+  {
+    "id": "14",
+    "name": "Nike Baseball Cleats",
+    "price": "79.99",
+    "oldPrice": "97.59",
+    "quantity": "12",
+    "category": "13",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp"
+  },
+  {
+    "id": "15",
+    "name": "Puma Future Rider Trainers",
+    "price": "89.99",
+    "oldPrice": "0",
+    "quantity": "90",
+    "category": "14",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp"
+  },
+  {
+    "id": "16",
+    "name": "Sports Sneakers Off White & Red",
+    "price": "119.99",
+    "oldPrice": "126.10",
+    "quantity": "17",
+    "category": "13",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp"
+  },
+  {
+    "id": "17",
+    "name": "Sports Sneakers Off White Red",
+    "price": "109.99",
+    "oldPrice": "0",
+    "quantity": "62",
+    "category": "14",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp"
+  },
+  {
+    "id": "18",
+    "name": "Brown Leather Belt Watch",
+    "price": "89.99",
+    "oldPrice": "95.69",
+    "quantity": "32",
+    "category": "17",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp"
+  },
+  {
+    "id": "19",
+    "name": "Longines Master Collection",
+    "price": "1499.99",
+    "oldPrice": "1813.90",
+    "quantity": "100",
+    "category": "16",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp"
+  },
+  {
+    "id": "20",
+    "name": "Rolex Cellini Date Black Dial",
+    "price": "8999.99",
+    "oldPrice": "9874.79",
+    "quantity": "40",
+    "category": "16",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp"
+  },
+  {
+    "id": "21",
+    "name": "Rolex Cellini Moonphase",
+    "price": "12999.99",
+    "oldPrice": "15763.87",
+    "quantity": "0",
+    "category": "16",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp"
+  },
+  {
+    "id": "22",
+    "name": "Rolex Datejust",
+    "price": "10999.99",
+    "oldPrice": "11420.19",
+    "quantity": "86",
+    "category": "16",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp"
+  },
+  {
+    "id": "23",
+    "name": "Rolex Submariner Watch",
+    "price": "13999.99",
+    "oldPrice": "0",
+    "quantity": "55",
+    "category": "16",
+    "photo": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp"
+  },
+  {
+    "id": "24",
+    "name": "Annibale Colombo Bed",
+    "price": "1899.99",
+    "oldPrice": "2076.83",
+    "quantity": "88",
+    "category": "20",
+    "photo": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp"
+  },
+  {
+    "id": "25",
+    "name": "Annibale Colombo Sofa",
+    "price": "2499.99",
+    "oldPrice": "2919.99",
+    "quantity": "60",
+    "category": "21",
+    "photo": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp"
+  },
+  {
+    "id": "26",
+    "name": "Bedside Table African Cherry",
+    "price": "299.99",
+    "oldPrice": "370.77",
+    "quantity": "64",
+    "category": "20",
+    "photo": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp"
+  },
+  {
+    "id": "27",
+    "name": "Knoll Saarinen Executive Conference Chair",
+    "price": "499.99",
+    "oldPrice": "0",
+    "quantity": "26",
+    "category": "22",
+    "photo": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp"
+  },
+  {
+    "id": "28",
+    "name": "Wooden Bathroom Sink With Mirror",
+    "price": "799.99",
+    "oldPrice": "877.03",
+    "quantity": "7",
+    "category": "19",
+    "photo": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp"
+  },
+  {
+    "id": "29",
+    "name": "Decoration Swing",
+    "price": "59.99",
+    "oldPrice": "66.98",
+    "quantity": "47",
+    "category": "23",
+    "photo": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp"
+  },
+  {
+    "id": "30",
+    "name": "Family Tree Photo Frame",
+    "price": "29.99",
+    "oldPrice": "35.22",
+    "quantity": "77",
+    "category": "23",
+    "photo": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
+  },
+  {
+    "id": "31",
+    "name": "House Showpiece Plant",
+    "price": "39.99",
+    "oldPrice": "0",
+    "quantity": "28",
+    "category": "23",
+    "photo": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp"
+  },
+  {
+    "id": "32",
+    "name": "Plant Pot",
+    "price": "14.99",
+    "oldPrice": "16.08",
+    "quantity": "59",
+    "category": "23",
+    "photo": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp"
+  },
+  {
+    "id": "33",
+    "name": "Table Lamp",
+    "price": "49.99",
+    "oldPrice": "53.78",
+    "quantity": "9",
+    "category": "23",
+    "photo": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp"
+  },
+  {
+    "id": "34",
+    "name": "Bamboo Spatula",
+    "price": "7.99",
+    "oldPrice": "0",
+    "quantity": "37",
+    "category": "25",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+  },
+  {
+    "id": "35",
+    "name": "Black Whisk",
+    "price": "9.99",
+    "oldPrice": "11.12",
+    "quantity": "73",
+    "category": "25",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+  },
+  {
+    "id": "36",
+    "name": "Boxed Blender",
+    "price": "39.99",
+    "oldPrice": "0",
+    "quantity": "9",
+    "category": "27",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp"
+  },
+  {
+    "id": "37",
+    "name": "Carbon Steel Wok",
+    "price": "29.99",
+    "oldPrice": "32.07",
+    "quantity": "40",
+    "category": "26",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+  },
+  {
+    "id": "38",
+    "name": "Chopping Board",
+    "price": "12.99",
+    "oldPrice": "14.13",
+    "quantity": "14",
+    "category": "25",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+  },
+  {
+    "id": "39",
+    "name": "Electric Stove",
+    "price": "49.99",
+    "oldPrice": "58.18",
+    "quantity": "21",
+    "category": "27",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp"
+  },
+  {
+    "id": "40",
+    "name": "Hand Blender",
+    "price": "34.99",
+    "oldPrice": "42.16",
+    "quantity": "0",
+    "category": "27",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+  },
+  {
+    "id": "41",
+    "name": "Microwave Oven",
+    "price": "89.99",
+    "oldPrice": "102.40",
+    "quantity": "59",
+    "category": "27",
+    "photo": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp"
+  },
+  {
+    "id": "42",
+    "name": "Apple",
+    "price": "1.99",
+    "oldPrice": "0",
+    "quantity": "8",
+    "category": "29",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"
+  },
+  {
+    "id": "43",
+    "name": "Beef Steak",
+    "price": "12.99",
+    "oldPrice": "14.37",
+    "quantity": "86",
+    "category": "31",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"
+  },
+  {
+    "id": "44",
+    "name": "Chicken Meat",
+    "price": "9.99",
+    "oldPrice": "11.58",
+    "quantity": "97",
+    "category": "31",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp"
+  },
+  {
+    "id": "45",
+    "name": "Fish Steak",
+    "price": "14.99",
+    "oldPrice": "0",
+    "quantity": "74",
+    "category": "31",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"
+  },
+  {
+    "id": "46",
+    "name": "Cooking Oil",
+    "price": "4.99",
+    "oldPrice": "5.50",
+    "quantity": "10",
+    "category": "28",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
+  },
+  {
+    "id": "47",
+    "name": "Cucumber",
+    "price": "1.49",
+    "oldPrice": "0",
+    "quantity": "84",
+    "category": "30",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
+  },
+  {
+    "id": "48",
+    "name": "Eggs",
+    "price": "2.99",
+    "oldPrice": "3.36",
+    "quantity": "9",
+    "category": "32",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"
+  },
+  {
+    "id": "49",
+    "name": "Green Bell Pepper",
+    "price": "1.29",
+    "oldPrice": "0",
+    "quantity": "33",
+    "category": "30",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"
+  },
+  {
+    "id": "50",
+    "name": "Green Chili Pepper",
+    "price": "0.99",
+    "oldPrice": "1.00",
+    "quantity": "3",
+    "category": "30",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"
+  },
+  {
+    "id": "51",
+    "name": "Honey Jar",
+    "price": "6.99",
+    "oldPrice": "8.17",
+    "quantity": "34",
+    "category": "28",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"
+  },
+  {
+    "id": "52",
+    "name": "Ice Cream",
+    "price": "5.49",
+    "oldPrice": "6.01",
+    "quantity": "27",
+    "category": "28",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp"
+  },
+  {
+    "id": "53",
+    "name": "Juice",
+    "price": "3.99",
+    "oldPrice": "4.54",
+    "quantity": "50",
+    "category": "33",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
+  },
+  {
+    "id": "54",
+    "name": "Kiwi",
+    "price": "2.49",
+    "oldPrice": "0",
+    "quantity": "99",
+    "category": "29",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
+  },
+  {
+    "id": "55",
+    "name": "Milk",
+    "price": "3.49",
+    "oldPrice": "4.05",
+    "quantity": "27",
+    "category": "32",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp"
+  },
+  {
+    "id": "56",
+    "name": "Potatoes",
+    "price": "2.29",
+    "oldPrice": "2.42",
+    "quantity": "13",
+    "category": "30",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp"
+  },
+  {
+    "id": "57",
+    "name": "Red Onions",
+    "price": "1.99",
+    "oldPrice": "2.21",
+    "quantity": "82",
+    "category": "30",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/red-onions/1.webp"
+  },
+  {
+    "id": "58",
+    "name": "Rice",
+    "price": "5.99",
+    "oldPrice": "6.60",
+    "quantity": "59",
+    "category": "28",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp"
+  },
+  {
+    "id": "59",
+    "name": "Soft Drinks",
+    "price": "1.99",
+    "oldPrice": "2.41",
+    "quantity": "53",
+    "category": "33",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp"
+  },
+  {
+    "id": "60",
+    "name": "Strawberry",
+    "price": "3.99",
+    "oldPrice": "0",
+    "quantity": "46",
+    "category": "29",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp"
+  },
+  {
+    "id": "61",
+    "name": "Water",
+    "price": "0.99",
+    "oldPrice": "1.16",
+    "quantity": "53",
+    "category": "33",
+    "photo": "https://cdn.dummyjson.com/product-images/groceries/water/1.webp"
+  },
+  {
+    "id": "62",
+    "name": "Essence Mascara Lash Princess",
+    "price": "9.99",
+    "oldPrice": "11.16",
+    "quantity": "99",
+    "category": "35",
+    "photo": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+  },
+  {
+    "id": "63",
+    "name": "Eyeshadow Palette with Mirror",
+    "price": "19.99",
+    "oldPrice": "24.42",
+    "quantity": "34",
+    "category": "35",
+    "photo": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+  },
+  {
+    "id": "64",
+    "name": "Powder Canister",
+    "price": "14.99",
+    "oldPrice": "0",
+    "quantity": "89",
+    "category": "35",
+    "photo": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+  },
+  {
+    "id": "65",
+    "name": "Red Lipstick",
+    "price": "12.99",
+    "oldPrice": "14.81",
+    "quantity": "91",
+    "category": "35",
+    "photo": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+  },
+  {
+    "id": "66",
+    "name": "Calvin Klein CK One",
+    "price": "49.99",
+    "oldPrice": "0",
+    "quantity": "29",
+    "category": "37",
+    "photo": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp"
+  },
+  {
+    "id": "67",
+    "name": "Chanel Coco Noir Eau De",
+    "price": "129.99",
+    "oldPrice": "155.62",
+    "quantity": "56",
+    "category": "37",
+    "photo": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp"
+  },
+  {
+    "id": "68",
+    "name": "Dior J'adore",
+    "price": "89.99",
+    "oldPrice": "105.53",
+    "quantity": "98",
+    "category": "37",
+    "photo": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp"
+  },
+  {
+    "id": "69",
+    "name": "Dolce Shine Eau de",
+    "price": "69.99",
+    "oldPrice": "0",
+    "quantity": "4",
+    "category": "37",
+    "photo": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp"
+  },
+  {
+    "id": "70",
+    "name": "Gucci Bloom Eau de",
+    "price": "79.99",
+    "oldPrice": "93.38",
+    "quantity": "91",
+    "category": "37",
+    "photo": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "name": "Electronics",
+    "parent": "0"
+  },
+  {
+    "id": "2",
+    "name": "Computers",
+    "parent": "1"
+  },
+  {
+    "id": "3",
+    "name": "Laptops",
+    "parent": "2"
+  },
+  {
+    "id": "4",
+    "name": "Apple",
+    "parent": "3"
+  },
+  {
+    "id": "5",
+    "name": "Windows",
+    "parent": "3"
+  },
+  {
+    "id": "6",
+    "name": "Mobile Accessories",
+    "parent": "1"
+  },
+  {
+    "id": "7",
+    "name": "Audio",
+    "parent": "6"
+  },
+  {
+    "id": "8",
+    "name": "Smart Speakers",
+    "parent": "6"
+  },
+  {
+    "id": "9",
+    "name": "Fashion",
+    "parent": "0"
+  },
+  {
+    "id": "10",
+    "name": "Men's Fashion",
+    "parent": "9"
+  },
+  {
+    "id": "11",
+    "name": "Men's Shirts",
+    "parent": "10"
+  },
+  {
+    "id": "12",
+    "name": "Men's Shoes",
+    "parent": "10"
+  },
+  {
+    "id": "13",
+    "name": "Athletic Shoes",
+    "parent": "12"
+  },
+  {
+    "id": "14",
+    "name": "Casual Shoes",
+    "parent": "12"
+  },
+  {
+    "id": "15",
+    "name": "Men's Watches",
+    "parent": "10"
+  },
+  {
+    "id": "16",
+    "name": "Luxury Watches",
+    "parent": "15"
+  },
+  {
+    "id": "17",
+    "name": "Sport Watches",
+    "parent": "15"
+  },
+  {
+    "id": "18",
+    "name": "Home & Living",
+    "parent": "0"
+  },
+  {
+    "id": "19",
+    "name": "Furniture",
+    "parent": "18"
+  },
+  {
+    "id": "20",
+    "name": "Bedroom",
+    "parent": "19"
+  },
+  {
+    "id": "21",
+    "name": "Living Room",
+    "parent": "19"
+  },
+  {
+    "id": "22",
+    "name": "Office",
+    "parent": "19"
+  },
+  {
+    "id": "23",
+    "name": "Home Decoration",
+    "parent": "18"
+  },
+  {
+    "id": "24",
+    "name": "Kitchen",
+    "parent": "18"
+  },
+  {
+    "id": "25",
+    "name": "Kitchen Tools",
+    "parent": "24"
+  },
+  {
+    "id": "26",
+    "name": "Cookware",
+    "parent": "24"
+  },
+  {
+    "id": "27",
+    "name": "Kitchen Appliances",
+    "parent": "24"
+  },
+  {
+    "id": "28",
+    "name": "Groceries",
+    "parent": "0"
+  },
+  {
+    "id": "29",
+    "name": "Fruits",
+    "parent": "28"
+  },
+  {
+    "id": "30",
+    "name": "Vegetables",
+    "parent": "28"
+  },
+  {
+    "id": "31",
+    "name": "Meat & Seafood",
+    "parent": "28"
+  },
+  {
+    "id": "32",
+    "name": "Dairy",
+    "parent": "28"
+  },
+  {
+    "id": "33",
+    "name": "Beverages",
+    "parent": "28"
+  },
+  {
+    "id": "34",
+    "name": "Beauty",
+    "parent": "0"
+  },
+  {
+    "id": "35",
+    "name": "Makeup",
+    "parent": "34"
+  },
+  {
+    "id": "36",
+    "name": "Fragrances",
+    "parent": "34"
+  },
+  {
+    "id": "37",
+    "name": "Perfumes",
+    "parent": "36"
+  }
+]
